@@ -216,8 +216,6 @@ C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\uysjqpgesb-2z0ns9nr
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\tvwh19kqkr-muycvpuwrr.gz
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\ah37fehh33-87fc7y1x7t.gz
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\nqi4g8c6mp-mlv21k5csn.gz
-C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\xbgb78aoub-t0c1jl2atc.gz
-C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\se1b29u40y-t0c1jl2atc.gz
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\staticwebassets.development.json
@@ -228,3 +226,6 @@ C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\refint\SyncSyntax.dll
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\SyncSyntax.pdb
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\SyncSyntax.genruntimeconfig.cache
 C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\ref\SyncSyntax.dll
+C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\6finre35yj-bnsgl5ou4y.gz
+C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\xbgb78aoub-wulo5pir3h.gz
+C:\Users\User\Desktop\SyncSyntax\obj\Debug\net9.0\compressed\se1b29u40y-wulo5pir3h.gz
