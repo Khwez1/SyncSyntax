@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using SyncSyntax.Data;
 using SyncSyntax.Models.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace SyncSyntax.Controllers
 {
@@ -18,9 +19,17 @@ namespace SyncSyntax.Controllers
 
         [HttpGet]
 
-        public IActionResult Index()
+        public IActionResult Index(int? categoryId)
         {
-            return View();
+            var postQuery = _context.Posts.Include(p => p.Category).AsQueryable();
+            if (categoryId.HasValue)
+            {
+                postQuery = postQuery.Where(p => p.CategoryId == categoryId);
+            }
+            var posts = postQuery.ToList();
+
+            ViewBag.Categories = _context.Categories.ToList();
+            return View(posts);
         }
 
         [HttpGet]
@@ -57,6 +66,13 @@ namespace SyncSyntax.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
+            postViewModel.Categories = _context.Categories.Select(c =>
+                new SelectListItem
+                {
+                    Value = c.Id.ToString(),
+                    Text = c.Name
+                }
+            ).ToList();
 
             return View(postViewModel);
         }
