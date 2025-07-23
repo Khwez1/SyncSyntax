@@ -22,7 +22,7 @@
 
 <div class="text-end">
     <a class="btn btn-secondary my-3" asp-controller="Post" asp-action="Edit" asp-route-id="@Model.Id">Edit Post</a>
-    <a class="btn btn-danger mx-3">Delete Post</a>
+    <a class="btn btn-danger mx-3" asp-controller="Post" asp-action="Delete" asp-route-id="@Model.Id">Delete Post</a>
 </div>
 
 <div class="content-wrapper">

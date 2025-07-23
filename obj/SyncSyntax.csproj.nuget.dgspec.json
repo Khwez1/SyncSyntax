@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\SyncSyntax\\SyncSyntax.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\SyncSyntax\\SyncSyntax.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\SyncSyntax\\SyncSyntax.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\SyncSyntax\\SyncSyntax.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\SyncSyntax\\SyncSyntax.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\SyncSyntax\\SyncSyntax.csproj",
         "projectName": "SyncSyntax",
-        "projectPath": "C:\\Users\\User\\Desktop\\SyncSyntax\\SyncSyntax.csproj",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\SyncSyntax\\SyncSyntax.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\SyncSyntax\\obj\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\SyncSyntax\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

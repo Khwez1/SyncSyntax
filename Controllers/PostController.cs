@@ -169,6 +169,36 @@ namespace SyncSyntax.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var postFromDb = await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);
+            if (postFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(postFromDb);
+        }
+
+        [HttpPost]
+
+        public async Task<IActionResult> DeleteConfirm(int id)
+        {
+            var postFromDb = await _context.Posts.FirstOrDefaultAsync(p => p.Id == id);
+
+            if (string.IsNullOrEmpty(postFromDb.FeatureImagePath))
+            {
+                var existingFilePath = Path.Combine(_webHostEnvironment.WebRootPath, "Images", Path.GetFileName(postFromDb.FeatureImagePath));
+
+                if (System.IO.File.Exists(existingFilePath))
+                {
+                    System.IO.File.Delete(existingFilePath);
+                }
+            }
+            _context.Posts.Remove(postFromDb);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
         public JsonResult AddComment([FromBody] Comment comment)
         {
             comment.CommentDate = DateTime.Now;
