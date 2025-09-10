@@ -1620,3 +1620,7 @@ C:\Users\User\OneDrive\Desktop\SyncSyntax\obj\Debug\net9.0\refint\SyncSyntax.dll
 C:\Users\User\OneDrive\Desktop\SyncSyntax\obj\Debug\net9.0\SyncSyntax.pdb
 C:\Users\User\OneDrive\Desktop\SyncSyntax\obj\Debug\net9.0\SyncSyntax.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\SyncSyntax\obj\Debug\net9.0\ref\SyncSyntax.dll
+C:\Users\User\OneDrive\Desktop\SyncSyntax\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User\OneDrive\Desktop\SyncSyntax\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Users\User\OneDrive\Desktop\SyncSyntax\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User\OneDrive\Desktop\SyncSyntax\bin\Debug\net9.0\Scalar.AspNetCore.dll
